@@ -1,7 +1,16 @@
+/* цвет основного текста #212121; */
+/* цвет второичного текста #757575; */
+/* logo color  #2196F3; */
+/* Studio color #2196F3; */
+/* Акцент #2196F3 */
+/* background color #E5E5E5; */
+/* background color team #F5F4FA; */
 body {
-    background-color: rgb(219, 219, 230);
+    background-color: #E5E5E5;
+    color: #212121;
 }
-.nav-link:hover {
-    color: tomato;
-}
-    
+/* убираем точки в списке */
+.list {list-style: none;}
+
+.nav-link:focus, .nav-link:hover {
+    color: #2196F3;}
