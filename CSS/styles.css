@@ -13,14 +13,13 @@
     --primary-background-color:#E5E5E5;;
     --secondary-background-color:#F5F4FA;
     --header-background-color:#FFFFFF;
-    --footer-background-color:#2F303A;
-    --footer-contact-color:#FFFFFF99;
-
-
+    --footer-background-color:#2F303A;;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
+
 body {
-    background-color: var (var(--primary-background-color))
-    color: var(var(--primary-text-color));
+background-color: var (var(--primary-background-color))
+color: var(var(--primary-text-color));
 }
 /* убираем точки в списке */
 .list {list-style: none;}
@@ -43,12 +42,12 @@ body {
 /* активность ссылок навигации */
 .site-nav .link:focus, 
 .site-nav .link:hover{
-    color: var(--accent-color);}
+color: var(--accent-color);}
 .contact-nav .link:focus,
 .contact-nav .link:hover {
-    color: var(--accent-color);}
+color: var(--accent-color);}
 
-    /* цвет  заголовка и текста секций */
+/* цвет  заголовка и текста секций */
 .section .title
 {color: var(--primary-text-color);}
 
@@ -73,6 +72,17 @@ body {
 {color:var(--header-background-color);}
 
 /* Button */
-.button
+.hero .button
 {background-color: var(--accent-color);
 color: var(--header-background-color);}
+
+/* Портфолио */
+.portfolio .button
+{color:var(--primary-text-color);
+background-color: var(--secondary-background-color);}
+.portfolio .button:hover, 
+.portfolio .button:focus
+{color:var(--header-background-color);
+background-color:var(--accent-color);}    
+
+
