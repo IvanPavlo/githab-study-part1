@@ -18,71 +18,87 @@
 }
 
 body {
-background-color: var (var(--primary-background-color))
-color: var(var(--primary-text-color));
+background-color: var(--primary-background-color))
+color: var(--primary-text-color));
 }
 /* убираем точки в списке */
 .list {list-style: none;}
 /* убираем подчеркивание ссылок */
 
 /* цвет логотипа */
-.logo
-{color: var(--accent-color);}
-.logo-studio
-{color: var(--primary-text-color);}
+.logo{
+    color: var(--accent-color);
+}
+.logo-studio{
+    color: var(--primary-text-color);
+}
 
 /* главная навигация */
-.site-nav .link
-{color: var(--primary-text-color);}
+.site-nav .link{
+color: var(--primary-text-color);
+}
 
 /* навигация контактов */
-.contact-nav .link
-{color: var(--secondary-text-color);}
+.contact-nav .link {
+color: var(--secondary-text-color);
+}
 
 /* активность ссылок навигации */
 .site-nav .link:focus, 
 .site-nav .link:hover{
-color: var(--accent-color);}
+color: var(--accent-color);
+}
 .contact-nav .link:focus,
 .contact-nav .link:hover {
-color: var(--accent-color);}
+color: var(--accent-color);
+}
 
 /* цвет  заголовка и текста секций */
-.section .title
-{color: var(--primary-text-color);}
+.section .title{
+color: var(--primary-text-color);
+}
 
-.section .text
-{color: var(--secondary-text-color);}
+.section .text{
+color: var(--secondary-text-color);
+}
 
 /* Имена команды */
-.section .name
-{color: var(--primary-text-color);
+.section .name{
+color: var(--primary-text-color);
 }
 /* background team */
-.team
-{background-color: var(--secondary-background-color);}
+.team{
+background-color: var(--secondary-background-color);
+}
 /* Footer */
-.footer
-{background-color: var(--footer-background-color);}
-.footer .adress
-{color: var(--header-background-color)}
-.footer .link
-{color: var(--footer-contact-color)}
-.footer .logo-studio
-{color:var(--header-background-color);}
+.footer{
+background-color: var(--footer-background-color);
+}
+.footer .adress{
+color: var(--header-background-color)
+}
+.footer .link{
+color: var(--footer-contact-color)
+}
+.footer .logo-studio{
+color:var(--header-background-color);
+}
 
 /* Button */
-.hero .button
-{background-color: var(--accent-color);
-color: var(--header-background-color);}
+.hero .button{
+background-color: var(--accent-color);
+color: var(--header-background-color);
+}
 
 /* Портфолио */
-.portfolio .button
-{color:var(--primary-text-color);
-background-color: var(--secondary-background-color);}
+.portfolio .button{
+color:var(--primary-text-color);
+background-color: var(--secondary-background-color);
+}
 .portfolio .button:hover, 
-.portfolio .button:focus
-{color:var(--header-background-color);
-background-color:var(--accent-color);}    
+.portfolio .button:focus{
+color:var(--header-background-color);
+background-color:var(--accent-color);
+}    
 
 
