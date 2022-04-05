@@ -11,17 +11,16 @@
 <!--шапка-->
     <header>
         <nav>
-        <a href="./Main.html" class="logo-1">Web</a>
-        <a href="./Main.html" class="logo-2">Studio</a>
-            <ul class=" nav-list list"> 
-                <li><a href="./Main.html" class="nav-link">Студия</a></li>    
-                <li><a href="./Portfolio.html"class="nav-link">Портфолио</a></li>    
-                <li><a href="./Contacts.html"class="nav-link">Контакты</a></li>    
+        <a href="./Main.html" class="logo">Web<span class="logo-studio">Studio</span></a>
+            <ul class="site-nav list"> 
+                <li><a href="./Main.html" class="link">Студия</a></li>    
+                <li><a href="./Portfolio.html"class="link">Портфолио</a></li>    
+                <li><a href="./Contacts.html"class="link">Контакты</a></li>    
             </ul>
         </nav>
-        <ul class="list">
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="">+380961111111</a></li>
+        <ul class="contact-nav list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380991111111" class="link">+380961111111</a></li>
         </ul>
     </header>
     <!--Герой-->
@@ -31,68 +30,69 @@
         <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br>
              ДЛЯ ВАШЕГО БИЗНЕСА 
             </h1>
-            <a href="">Заказать услугу</a> 
+            <a href="" class="button">Заказать услугу</a> 
     </section>
     </div>
-    <section>
-        <ul class="list">
+    <!-- Наши преимущества -->
+    <section class="section">
+        <ul>
             <li>
-                <h2>Внимание к деталям</h2>
-                <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                <h2 class="title">Внимание к деталям</h2>
+                <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
              <li>
-                <h2>Пунктуальность</h2>
-                <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                <h2 class="title">Пунктуальность</h2>
+                <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
              </li>
             <li>
-                <h2>Планирование</h2>
-                <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                <h2 class="title">Планирование</h2>
+                <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
             <li>
-                <h2>Современные технологии</h2>
-                <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <h2 class="title">Современные технологии</h2>
+                <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
     <!--Чем мы занимаемся-->
-    <section>
-        <h3>Чем мы занимаемся</h3>
-         <ul>
+    <section class="section">
+        <h3 class="title">Чем мы занимаемся</h3>
+         <ul class="list">
             <li><a href=""><img src="./IMG/img.png" alt="Верстка сайта"></a></li>
             <li><a href=""><img src="./IMG/img-2.png" alt="Мобильные приложение"></a></li>
             <li><a href=""><img src="./IMG/img-3.png" alt="Вэб дизайн"></a></li>
          </ul>
     </section>
      <!--Наша команда-->
-    <section>
-         <h3>Наша команда</h3> 
-         <ul>
+    <section class="section team">
+         <h3 class="title">Наша команда</h3> 
+         <ul class="list">
              <li><img src="./IMG/ID.jpg" alt="Игорь Демьяненко" height="260" width="270">
-                <h4>Игорь Демьяненко</h4>
-                <p lang="en">Product Designer</p></li>
+                <h4 class="name">Игорь Демьяненко</h4>
+                <p lang="en" class="text">Product Designer</p></li>
             <li><img src="./IMG/OR.jpg" alt="Ольга Репина" height="260" width="270">
-                <h4>Ольга Репина</h4>
-                <p lang="en">Frontend Developer</p></li>
+                <h4 class="name">Ольга Репина</h4>
+                <p lang="en" class="text">Frontend Developer</p></li>
             <li><img src="./IMG/NT.jpg" alt="Николай Тарасов" height="260" width="270">
-                <h4>Николай Тарасов</h4>
-                <p lang="en">Marketing</p></li>
+                <h4 class="name">Николай Тарасов</h4>
+                <p lang="en" class="text">Marketing</p></li>
             <li><img src="./IMG/ME.jpg" alt="Михаил Ермаков" height="260" width="270">
-                <h4>Михаил Ермаков</h4>
-                <p lang="en">UI Designer</p></li>     
+                <h4 class="name">Михаил Ермаков</h4>
+                <p lang="en" class="text">UI Designer</p></li>     
          </ul>  
     </section>
 </main>
     <!--Футер-->
-    <footer>
-        <a href="./Main.html">WebStudio</a>
+    <footer class="footer">
+        <a href="./Main.html" class="logo">Web<span class="logo-studio">Studio</span></a>
             <address>
-               <p>г. Киев, пр-т Леси Украинки, 26</p>   
-               <ul>
-                    <li><a href="mailto:info@example.com">info@example.com</a></li>
-                    <li><a href="tel:+380991111111">+38 099 1111111</a></li>           
+               <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>   
+               <ul class="list">
+                    <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                    <li><a href="tel:+380991111111" class="link">+38 099 1111111</a></li>           
                </ul>   
              </address>     
-        <p>Made by PI. &copy; All rights are reserved</p>
+        <p class="adress">Made by PI. &copy; All rights are reserved</p>
     </footer>
 </body>
 </html>
