@@ -16,33 +16,68 @@
     --footer-background-color:#2F303A;;
     --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
+/* Используемые шрифты */
+/* Шрифт лого Raleway, жирность 700
+Шрифт остального текста Roboto, жирность 900 герой, 700 заголовки, 500 нави, 400 текст  */
 
 body {
-background-color: var(--primary-background-color))
-color: var(--primary-text-color));
+background-color: var(--header-background-color);
+color: var(--primary-text-color);
+font-family: roboto, sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
 }
+
+
 /* убираем точки в списке */
 .list {list-style: none;}
 /* убираем подчеркивание ссылок */
 
-/* цвет логотипа */
+/*логотипа */
 .logo{
     color: var(--accent-color);
+    font-family: raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+
 }
 .logo-studio{
     color: var(--primary-text-color);
+    font-family: raleway,sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 /* главная навигация */
 .site-nav .link{
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+text-decoration: none;
+
 }
+
+/* активность страницы на которой находишься */
+.site-nav .link.current
+{color: var(--accent-color);}
 
 /* навигация контактов */
 .contact-nav .link {
 color: var(--secondary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
-
 /* активность ссылок навигации */
 .site-nav .link:focus, 
 .site-nav .link:hover{
@@ -53,45 +88,85 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 
-/* цвет  заголовка и текста секций */
-.section .title{
+/* оформления героя */
+/* .hero h1{
 color: var(--primary-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36px;
+text-align: center;
+letter-spacing: 0.06em;
+}  */
+
+/* цвет  заголовка и текста секций */
+.section .title-list{
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
 }
 
 .section .text{
 color: var(--secondary-text-color);
 }
+/* Оформления чем мы занимаемся */
+.section-works .title, .section-team .title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
 
 /* Имена команды */
-.section .name{
+
+.section-team .name{
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
 }
+
+.section-team .text{
+color: var(--secondary-text-color);
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19px;
+}
+
 /* background team */
-.team{
+.section-team{
 background-color: var(--secondary-background-color);
 }
+
 /* Footer */
 .footer{
 background-color: var(--footer-background-color);
 }
 .footer .adress{
-color: var(--header-background-color)
+color: var(--header-background-color);
+text-decoration: none;
 }
 .footer .link{
-color: var(--footer-contact-color)
+color: var(--footer-contact-color);
+text-decoration: none;
 }
 .footer .logo-studio{
 color:var(--header-background-color);
+text-decoration: none;
 }
 
 /* Button */
 .hero .button{
 background-color: var(--accent-color);
 color: var(--header-background-color);
+text-decoration: none;
 }
 
-/* Портфолио */
-.portfolio .button{
+/* Страница Портфолио */
+
+/* оформление ссылок через класс */
+/* .portfolio .button{
 color:var(--primary-text-color);
 background-color: var(--secondary-background-color);
 }
@@ -99,6 +174,29 @@ background-color: var(--secondary-background-color);
 .portfolio .button:focus{
 color:var(--header-background-color);
 background-color:var(--accent-color);
-}    
+}     */
 
-
+/* оформление через тег button */
+button{
+color: var(--primary-text-color);
+background-color: var(--secondary-background-color); 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;   
+}
+button:hover, button:focus{
+color: var(--header-background-color);
+background-color: var(--accent-color);
+}
+.section-portfolio .title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;    
+}
+.section-portfolio .text{
+Font-weight: 400;
+font-size: 16px;
+line-height: 1.88;
+}
