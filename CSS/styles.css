@@ -3,7 +3,7 @@
 html {box-sizing: border-box;}
 /* наследоввание */
 *.
-*::before;
+*::before
 *::after{
 box-sizing: inherit;
 }
